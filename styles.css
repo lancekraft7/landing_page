@@ -1,6 +1,7 @@
-.body{
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+    
+        }
 
 /*----------------------- header stuff----------------------------------*/
 .header,.headlink{
@@ -11,7 +12,11 @@
 .header{
     display: flex;
     align-content: center;
-    }
+    padding-bottom: 50px;
+    margin-bottom: -25px;
+    width:100%;
+    justify-content: space-between;
+}
 
 .headlink {
     display: flex;
@@ -25,3 +30,20 @@
     align-self: flex-end;
 }
 /*------------------------first container-------------------------------------*/
+
+.onecontain{
+    background-color: #1f2937;
+    color: azure;
+    display: flex;
+    gap: 20PX;
+    }
+.oneleft{
+    display: flex block;
+    align-self: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+}
+.oneright{
+    display: flex;
+}
