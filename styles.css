@@ -1,9 +1,9 @@
 .body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    }
 
+/*----------------------- header stuff----------------------------------*/
 .header,.headlink{
-    width: 100%;
     background-color: #1f2937;
     color: azure;
 
@@ -11,16 +11,17 @@
 .header{
     display: flex;
     align-content: center;
-    justify-content: start;
-}
+    }
 
 .headlink {
     display: flex;
-    justify-content: end;
+    justify-self: end;
     align-self: center;
     gap: 10px;
 }
 .headlink a{
     color: azure;
     text-decoration: none;
+    align-self: flex-end;
 }
+/*------------------------first container-------------------------------------*/
