@@ -1,7 +1,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-        }
+}
 
 /*----------------------- header stuff----------------------------------*/
 .header,.headlink{
@@ -36,18 +36,25 @@ body{
     color: azure;
     display: flex;
     justify-content: center;
-    gap: 20PX;
+    gap: 50PX;
+    height: 400px;
+    width: auto;
     }
 .oneleft{
-    display: flex block;
-    align-self:center;
+    display: flex block;    
     justify-content: space-evenly;
-    width: 50%;
     padding: 20px;
+    height: 100px;
+    width: auto;
+    max-width: 50%;
+    }
+#oneright{
+    height: 100px;
+    width: auto;
 }
 
 #firstbutt{
-    background-color: rgb(26, 109, 109);
+    background-color: #1a6d6d;
     color: azure;
     font-size: 15px;
     padding: 3px 8px;
@@ -55,5 +62,30 @@ body{
     border-radius: 5px;
     border: none;
 }
+#firstbutt:hover{
+    background-color: #208888;
+    transition: .2s;
+}
 /*----------------------------second container------------------------------------------*/
-
+.twocontain{
+    text-align: center;
+    background-color: #ecf5f5;
+    margin-top: -20px;
+    padding-top: 5px;
+    
+        
+}
+.infoholder{
+    display: inline-flex;
+    width: 100%;
+    
+}
+.info{
+    border: #208888;
+    display: flex block;
+    max-width: 20px;
+    justify-content: center;
+    }
+.boat{
+    width: 100px
+}
