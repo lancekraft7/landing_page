@@ -78,7 +78,19 @@ body{
 }
 .infoholder{
     display: inline-flex;
-    flex:100%
+    flex:100%;
     width: 100%;
-    
+    justify-content: space-evenly;
+}
+
+.threecontain{
+    background-color: lightgray ;
+    width: 100%;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.lancelot{
+    align-self: end;
 }
