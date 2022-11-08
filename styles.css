@@ -38,7 +38,8 @@ body{
     justify-content: center;
     gap: 50PX;
     height: 400px;
-    width: auto;
+    flex: 1 1 100%;
+    width: 100%;
     }
 .oneleft{
     display: flex block;    
@@ -77,15 +78,7 @@ body{
 }
 .infoholder{
     display: inline-flex;
+    flex:100%
     width: 100%;
     
-}
-.info{
-    border: #208888;
-    display: flex block;
-    max-width: 20px;
-    justify-content: center;
-    }
-.boat{
-    width: 100px
 }
